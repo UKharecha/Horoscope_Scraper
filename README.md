@@ -57,6 +57,13 @@ python-decouple: for handling environment variables.
 ```bash
 $ pip install python-decouple
 ```
+#### Notice that we have the SECRET_KEY set to an environment variable named SECRET_KEY. Create a file named .env in the root directory and add the following content there:
+
+```bash
+APP_SETTINGS=config.DevelopmentConfig
+SECRET_KEY=gufldksfjsdf 
+```
+
 ### 4. Project Workflow
 The basic workflow of the project will be like this:
 
